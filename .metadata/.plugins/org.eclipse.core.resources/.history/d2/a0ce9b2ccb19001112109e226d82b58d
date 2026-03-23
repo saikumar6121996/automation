@@ -1,0 +1,15 @@
+package org.eclipse;
+
+public class Removeduplicatesofstr {
+public static void main(String[] args) {
+	
+	String str= "java";
+	String dup ="";
+	for(int i=0;i<str.length();i++) {
+		char ch = str.charAt(i);
+		if(dup.indexOf(ch)== -1) {
+			dup=dup+ch;
+		}
+	}
+	System.out.println(dup);
+}}

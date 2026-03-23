@@ -1,0 +1,9 @@
+package org.eclipse;
+
+public class replacestring {
+public static void main(String[] args) {
+	String str= "java prog ram";
+	String replace = str.replace(" ", "");
+	System.out.println(replace);
+}
+}

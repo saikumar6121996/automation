@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="classes" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="classes" name="Test1(failed)">
+    <parameter name="pass" value="krishna"/>
+    <parameter name="username" value="pavan"/>
+    <classes>
+      <class name="org.selnium.Testg">
+        <methods>
+          <include name="precondition"/>
+          <include name="tc1" invocation-numbers="0"/>
+          <include name="postcondition"/>
+        </methods>
+      </class> <!-- org.selnium.Testg -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="5.332" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="to user checks the login functionality" name="to user varify valid credentails" time="5.025">
+<failure type="org.junit.ComparisonFailure" message="expected:&lt;[expected]&gt; but was:&lt;[Actual]&gt;">
+<![CDATA[org.junit.ComparisonFailure: expected:<[expected]> but was:<[Actual]>
+	at org.junit.Assert.assertEquals(Assert.java:117)
+	at org.junit.Assert.assertEquals(Assert.java:146)
+	at org.step.Fbook.to_user_enter_valid_emain_and_password(Fbook.java:40)
+	at ✽.to user enter valid emain and password(file:///C:/Users/welcome/pavan/eclipse/CucumberProjec/src/test/resources/feature/facebook.feature:4)
+]]>
+</failure>
+<system-out><![CDATA[
+Given to user open browser..................................................passed
+When to user enter valid emain and password.................................failed
+Then to user click login....................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
